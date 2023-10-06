@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route path='/' element={<GoogleAuth />} /> */}
+        
         <Route path='/' element={<Home />} />
         <Route path='/addressvalidator' element={<ValidationPage />} />
         <Route path='/imagetobase64' element={<ImageToBase64 />} />
